@@ -63,7 +63,7 @@ One of the goals of this project is to serve as an example for the [course on Sc
 
 ### Prepare the application environment
 1. Copy [the Docker environment variables config file](.env.dist) and tune it with your desired values: `cp .env.dist .env`
-2. Start Docker and bring up the project needed containers: `docker-compose up -d`
+2. Start Docker and bring up the project needed containers: `docker compose up -d`
 3. Create the database tables in your Docker MySQL container: `sbt createDbTables`
 
 ### Run the tests and start the HTTP server
